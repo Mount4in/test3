@@ -31,3 +31,4 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
         with:
           model: zhipuai/glm-5.1
+          share: true
